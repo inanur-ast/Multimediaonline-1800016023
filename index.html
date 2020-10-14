@@ -1,29 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>AMP Tools</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+<style>
+  body {
+    background-color: black;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: white;
+    position: relative;
+  }
+  .navbar {
+    background-color: #c58c2b;
+    z-index: 9999;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    font-family: Montserrat, sans-serif;
+   }
+      .dropbtn {
+  background-color: #c58c2b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-    </head>
-    <body>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>AMP Tools</h1>
-                    <p>Collection of tools to make AMP component quickly</p>
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-                    <ul>
-                        <li><a href="amp-img.html">amp-img</a> (beta)</li>
-                        <li>amp-youtube (future development)</li>
-                        <li>amp-instagram (future development)</li>
-                        <li>amp-iframe (future development)</li>
-                        <li>other amp component</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-    </body>
+.dropdown-content a:hover {background-color: #171735}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #171735;
+}
+</style>
+</head>
+
+<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="30">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+      <a class="navbar-brand">SISTEM INFORMASI</a>
+  </div>
+  </nav>
+<p><h2 style="text-align:center;">
+Ina Nur Astuti<br><br>
+1800016023<br><br>
+Multimedia Online</h2></p>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="#">Praktikum 1</a>
+  <a href="#">Praktikum 2</a>
+  <a href="#">Praktikum 3</a>
+  <a href="#">Praktikum 4</a>
+  <a href="#">Praktikum 5</a>
+  <a href="#">Praktikum 6</a>
+  <a href="#">Praktikum 7</a>
+  <a href="#">Praktikum 8</a>
+  <a href="#">Praktikum 9</a>
+  <a href="#">Praktikum 10</a>
+  </div>
+</div>
+
+</body>
 </html>
